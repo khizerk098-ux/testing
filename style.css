@@ -1,0 +1,50 @@
+/* List ki aam styling */
+.fruit-list {
+    list-style-type: square; /* Square bullets */
+    width: 250px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
+}
+
+/* Har li (list item) ki common padding aur margin */
+.fruit-list li {
+    padding: 8px 12px;
+    margin-bottom: 5px;
+    border-radius: 4px;
+    font-weight: bold;
+    color: #333;
+    transition: 0.3s;
+}
+
+/* 1st child (Mango) */
+.fruit-list li:nth-child(1) {
+    background-color: #ffeb3b; /* Peela rang */
+}
+
+/* 2nd child (Apple) */
+.fruit-list li:nth-child(2) {
+    background-color: #ffcdd2; /* Halki laal rang */
+}
+
+/* 3rd child (Banana) */
+.fruit-list li:nth-child(3) {
+    background-color: #fff9c4; /* Halki peeli rang */
+}
+
+/* 4th child (Grapes) */
+.fruit-list li:nth-child(4) {
+    background-color: #e1bee7; /* Halki purple rang */
+}
+
+/* 5th child (Watermelon) */
+.fruit-list li:nth-child(5) {
+    background-color: #c8e6c9; /* Halki hari rang */
+}
+
+/* Hover effect jab mouse item par jaye */
+.fruit-list li:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
